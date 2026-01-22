@@ -1,0 +1,30 @@
+{
+  "name": "hdb",
+  "version": "0.1.0",
+  "description": "Embedded graph-vector database with SQLite-like convenience - powered by Kuzu",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "database",
+    "graph",
+    "vector",
+    "embedded",
+    "kuzu",
+    "cypher",
+    "ai",
+    "rag",
+    "similarity-search"
+  ],
+  "author": "AnEntrypoint",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnEntrypoint/hdb.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "kuzu": "^0.11.3"
+  }
+}
